@@ -3,7 +3,6 @@
 ZenFlow is a simple, cross-platform desktop application designed to help you focus by temporarily blocking distracting websites. Built with JavaFX, it provides a minimal and professional interface to manage your focus sessions.
 
 
-
 ## Features
 
 * **Block Distracting Websites:** Add any website (e.g., `youtube.com`, `facebook.com`) to your blocklist.
@@ -17,7 +16,7 @@ ZenFlow works by temporarily adding entries to your system's **hosts file**, whi
 
 ## Screenshots
 
-
+![Image](https://github.com/user-attachments/assets/23f2d697-289e-4474-a035-bc23f4679a5d)
 
 ## How to Run
 
