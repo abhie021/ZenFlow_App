@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" spacing="15" styleClass="root" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abhimurkute.zenflow.ZenFlowController">
+    <padding>
+        <Insets bottom="25" left="25" right="25" top="25" />
+    </padding>
+
+    <Label styleClass="header-title" text="ZenFlow" />
+
+    <VBox spacing="5">
+        <Label styleClass="label-text" text="Websites to Block" />
+        <HBox spacing="10">
+            <TextField fx:id="websiteInputField" promptText="e.g., youtube.com" HBox.hgrow="ALWAYS" />
+            <Button onAction="#onAddButtonClick" text="Add" />
+        </HBox>
+        <ListView fx:id="blocklistListView" prefHeight="150" />
+        <Button onAction="#onRemoveButtonClick" prefWidth="400" text="Remove Selected" />
+    </VBox>
+
+    <HBox alignment="CENTER" spacing="10">
+        <Label styleClass="label-text" text="Focus Duration (minutes):" />
+        <Spinner fx:id="durationSpinner" editable="true" initialValue="25" max="180" min="1" prefWidth="80" />
+    </HBox>
+
+    <VBox alignment="CENTER" spacing="5">
+        <Button fx:id="toggleButton" onAction="#onToggleButtonClick" prefHeight="45" prefWidth="250" styleClass="start-button" text="Start Focus Session" />
+        <Label fx:id="timerLabel" styleClass="timer-label" text="00:00" />
+        <ProgressBar fx:id="timerProgressBar" prefWidth="400" progress="0.0" />
+    </VBox>
+</VBox>

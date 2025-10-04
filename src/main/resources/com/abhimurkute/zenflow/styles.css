@@ -1,0 +1,54 @@
+.root {
+    -fx-background-color: #F4F4F9; /* Off-white background */
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.header-title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50; /* Dark blue-gray text */
+}
+
+.label-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #34495E; /* Slightly lighter blue-gray */
+}
+
+.button {
+    -fx-background-color: #3498DB; /* Bright blue */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #2980B9; /* Darker blue on hover */
+}
+
+#toggleButton.start-button {
+    -fx-background-color: #2ECC71; /* Green for start */
+    -fx-font-size: 16px;
+}
+
+#toggleButton.start-button:hover {
+    -fx-background-color: #27AE60;
+}
+
+#toggleButton.stop-button {
+    -fx-background-color: #E74C3C; /* Red for stop */
+    -fx-font-size: 16px;
+}
+
+#toggleButton.stop-button:hover {
+    -fx-background-color: #C0392B;
+}
+
+.timer-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #2ECC71; /* Green progress bar */
+}

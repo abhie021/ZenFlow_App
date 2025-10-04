@@ -1,0 +1,20 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# Maven build output
+target/
+
+# IDE specific files
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Virtual machine crash logs
+hs_err_pid*
