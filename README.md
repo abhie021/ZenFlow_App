@@ -17,8 +17,6 @@ ZenFlow works by temporarily adding entries to your system's **hosts file**, whi
 
 ## Screenshots
 
-<img width="749" height="941" alt="Image" src="https://github.com/user-attachments/assets/0fe9d821-124e-4c8a-99dd-314afd07ba7f" />
-
 
 
 ## How to Run
