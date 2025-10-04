@@ -15,6 +15,12 @@ ZenFlow is a simple, cross-platform desktop application designed to help you foc
 
 ZenFlow works by temporarily adding entries to your system's **hosts file**, which redirects the distracting websites to your local machine (127.0.0.1). Because it modifies a system file, **the application must be run with administrator privileges**.
 
+## Screenshots
+
+<img width="749" height="941" alt="Image" src="https://github.com/user-attachments/assets/0fe9d821-124e-4c8a-99dd-314afd07ba7f" />
+
+
+
 ## How to Run
 
 ### Prerequisites
